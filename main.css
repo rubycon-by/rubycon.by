@@ -11,17 +11,18 @@
 /* line 26, ../../app/assets/stylesheets/application.css.scss */
 .gradient {
   pointer-events: none;
-  height: 482px;
+  height: 491px;
   position: absolute;
-  right: 0;
-  top: -105px;
+  /*right: 0;*/
+  /*left: 185px;*/
+  top: -115px;
   width: 100%;
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
   background: -webkit-gradient(radial, center center, 0px, center center, 40%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0)));
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
   background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
   background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 35%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
 }
 
