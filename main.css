@@ -316,12 +316,12 @@ body {
 }
 
 /* line 204, ../../app/assets/stylesheets/home.css.sass */
-span.main, .email {
+span.main, .email a {
   font-family: ProximaNova-Bold;
 }
 
 /* line 207, ../../app/assets/stylesheets/home.css.sass */
-.email {
+.email a {
   color: white;
   text-decoration: underline;
   vertical-align: 70%;
