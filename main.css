@@ -8,25 +8,21 @@
   src: url("fonts/ProximaNova-Bold.otf");
 }
 
-/* line 26, ../../app/assets/stylesheets/application.css.scss */
 .gradient {
   pointer-events: none;
   height: 491px;
   position: absolute;
-  /*right: 0;*/
-  /*left: 185px;*/
   top: -115px;
   width: 100%;
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
   background: -webkit-gradient(radial, center center, 0px, center center, 40%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0)));
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
   background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 22%);
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 35%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 23%);
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 1.17) 0%, rgba(255, 255, 255, 0) 35%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
 }
 
-/* line 42, ../../app/assets/stylesheets/application.css.scss */
 .address:before {
   content: " ";
   pointer-events: none;
@@ -45,32 +41,27 @@
 }
 
 
-/* line 1, ../../app/assets/stylesheets/home.css.sass */
 body {
   margin: 0;
 }
 
-/* line 4, ../../app/assets/stylesheets/home.css.sass */
 .header-bg, .hexes-bg, .techs-bg, .clients-bg, .team-bg, .footer-bg, .header-bg-jobs, .content-bg {
   min-width: 960px;
   position: relative;
 }
 
-/* line 8, ../../app/assets/stylesheets/home.css.sass */
 .header-bg {
   background-image: url(images/header_bg.png);
   background-repeat: repeat-x;
   min-height: 376px;
 }
 
-/* line 13, ../../app/assets/stylesheets/home.css.sass */
 .hexes-bg {
   padding-bottom: 17px;
   min-height: 196px;
   border-bottom: 1px solid #d7d5d8;
 }
 
-/* line 18, ../../app/assets/stylesheets/home.css.sass */
 .techs-bg {
   padding-bottom: 17px;
   min-height: 300px;
@@ -78,43 +69,35 @@ body {
   border-bottom: 1px solid #868388;
 }
 
-/* line 24, ../../app/assets/stylesheets/home.css.sass */
 .clients-bg {
   min-height: 360px;
   background-color: #9d9aa0;
   border-bottom: 1px solid #868388;
 }
 
-/* line 29, ../../app/assets/stylesheets/home.css.sass */
 .team-bg {
   min-height: 675px;
 }
 
-/* line 32, ../../app/assets/stylesheets/home.css.sass */
 .footer-bg {
   box-shadow: inset 0px 12px 40px 0px black;
   background-image: url(images/footer-bg.png);
   min-height: 240px;
 }
 
-/* line 37, ../../app/assets/stylesheets/home.css.sass */
 .header-top {
   max-height: 200px;
-  pointer-events: none;
 }
 
-/* line 41, ../../app/assets/stylesheets/home.css.sass */
 .header {
   margin-left: -480px;
   left: 50%;
-  pointer-events: none;
   position: absolute;
   top: 30px;
   min-width: 960px;
   max-width: 960px;
 }
 
-/* line 50, ../../app/assets/stylesheets/home.css.sass */
 .techs, .clients, .team, .footer {
   margin-left: -480px;
   left: 50%;
@@ -124,7 +107,6 @@ body {
   position: absolute;
 }
 
-/* line 63, ../../app/assets/stylesheets/home.css.sass */
 .techs-ico, .clients-ico, .team-ico {
   position: absolute;
   left: 10%;
@@ -132,14 +114,12 @@ body {
   top: -19px;
 }
 
-/* line 69, ../../app/assets/stylesheets/home.css.sass */
 .techs-header-text, .team-header-text {
   padding-top: 30px;
   font-size: 34px;
   font-family: ProximaNova-Regular;
 }
 
-/* line 74, ../../app/assets/stylesheets/home.css.sass */
 .clients-header-text {
   padding-top: 30px;
   font-size: 34px;
@@ -147,9 +127,9 @@ body {
   color: white;
 }
 
-/* line 81, ../../app/assets/stylesheets/home.css.sass */
 .title {
-  float: left;
+  z-index: 10;
+  position: absolute;
   font-family: ProximaNova-Regular;
   font-size: 28px;
   color: #9c90a8;
@@ -157,40 +137,36 @@ body {
   padding-left: 72px;
 }
 
-/* line 89, ../../app/assets/stylesheets/home.css.sass */
 .jobs {
+  z-index: 10;
+  position: absolute;
+  right: 0;
   font-family: ProximaNova-Regular;
   color: #9c90a8;
-  float: right;
   padding-top: 48px;
   padding-right: 72px;
   width: 340px;
 }
 
-/* line 97, ../../app/assets/stylesheets/home.css.sass */
 .logo {
   top: 35px;
   text-align: center;
 }
 
-/* line 104, ../../app/assets/stylesheets/home.css.sass */
 .jobs-clock {
   float: left;
   padding-right: 10px;
 }
 
-/* line 108, ../../app/assets/stylesheets/home.css.sass */
 .jobs-text a {
   text-decoration: none;
   border-bottom: 1px dotted;
   color: white;
 }
-/* line 112, ../../app/assets/stylesheets/home.css.sass */
 .jobs-text a:hover {
   border-bottom: none;
 }
 
-/* line 115, ../../app/assets/stylesheets/home.css.sass */
 .mid-title {
   padding-top: 15px;
   text-align: center;
@@ -199,7 +175,6 @@ body {
   font-size: 44px;
 }
 
-/* line 122, ../../app/assets/stylesheets/home.css.sass */
 .green-hex, .blue-hex, .orange-hex {
   display: inline-block;
   width: 250px;
@@ -210,34 +185,28 @@ body {
   margin: 0 33px;
 }
 
-/* line 131, ../../app/assets/stylesheets/home.css.sass */
 .hexes {
   padding-top: 10px;
   text-align: center;
 }
 
-/* line 135, ../../app/assets/stylesheets/home.css.sass */
 .green-hex .hex-text {
   color: #327a5f;
 }
 
-/* line 138, ../../app/assets/stylesheets/home.css.sass */
 .blue-hex .hex-text {
   color: #2274b5;
 }
 
-/* line 141, ../../app/assets/stylesheets/home.css.sass */
 .orange-hex .hex-text {
   color: #d4622a;
 }
 
-/* line 144, ../../app/assets/stylesheets/home.css.sass */
 .clients-logos {
   padding-top: 40px;
   text-align: left;
 }
 
-/* line 148, ../../app/assets/stylesheets/home.css.sass */
 .client-logo {
   display: inline-block;
   min-height: 75px;
@@ -247,80 +216,66 @@ body {
   vertical-align: top;
 }
 
-/* line 160, ../../app/assets/stylesheets/home.css.sass */
 .team-photos {
   padding-top: 45px;
 }
 
-/* line 163, ../../app/assets/stylesheets/home.css.sass */
 .member-photo {
   vertical-align: top;
   display: inline-block;
   padding: 10px 38px 10px 38px;
 }
 
-/* line 168, ../../app/assets/stylesheets/home.css.sass */
 .member-name {
   font-family: ProximaNova-Bold;
   font-size: 16px;
 }
 
-/* line 172, ../../app/assets/stylesheets/home.css.sass */
 .member-meta {
   max-width: 160px;
 }
 
-/* line 175, ../../app/assets/stylesheets/home.css.sass */
 .member-job, .address {
   font-family: ProximaNova-Regular;
 }
 
-/* line 178, ../../app/assets/stylesheets/home.css.sass */
 .footer-header {
   padding-top: 35px;
 }
 
-/* line 181, ../../app/assets/stylesheets/home.css.sass */
 .full-title {
   font-family: ProximaNova-Bold;
   font-size: 15px;
   color: white;
 }
 
-/* line 186, ../../app/assets/stylesheets/home.css.sass */
 .contacts {
   padding-top: 70px;
   text-align: left;
 }
 
-/* line 190, ../../app/assets/stylesheets/home.css.sass */
 .address {
   color: #d4d4d4;
 }
 
-/* line 193, ../../app/assets/stylesheets/home.css.sass */
 .phone-icon, .mail-icon, .twitter-icon {
   display: inline-block;
   padding-right: 10px;
 }
 
-/* line 197, ../../app/assets/stylesheets/home.css.sass */
 .email {
   display: inline-block;
   padding-right: 14px;
 }
 
-/* line 201, ../../app/assets/stylesheets/home.css.sass */
 .facebook-icon {
   display: inline-block;
 }
 
-/* line 204, ../../app/assets/stylesheets/home.css.sass */
 span.main, .email a {
   font-family: ProximaNova-Bold;
 }
 
-/* line 207, ../../app/assets/stylesheets/home.css.sass */
 .email a {
   color: white;
   text-decoration: underline;
@@ -331,7 +286,6 @@ span.main, .email a {
   text-decoration: none;
 }
 
-/* line 212, ../../app/assets/stylesheets/home.css.sass */
 .phone-number {
   padding-right: 25px;
   font-family: ProximaNova-Regular;
@@ -342,29 +296,24 @@ span.main, .email a {
   vertical-align: 60%;
 }
 
-/* line 221, ../../app/assets/stylesheets/home.css.sass */
 .fax {
   vertical-align: -13%;
 }
 
-/* line 224, ../../app/assets/stylesheets/home.css.sass */
 .note {
   color: #676767;
   font-size: 13px;
   padding-left: 12px;
 }
 
-/* line 229, ../../app/assets/stylesheets/home.css.sass */
 .top {
   padding-right: 43px;
 }
 
-/* line 232, ../../app/assets/stylesheets/home.css.sass */
 .techs-tags {
   padding-top: 36px;
 }
 
-/* line 235, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag {
   text-decoration: none;
   box-shadow: 1px 2px 2px #a6a4a6;
@@ -377,65 +326,54 @@ span.main, .email a {
   margin-bottom: 8px;
 }
 
-/* line 246, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.ruby:hover {
   background-color: #cf2f30;
   color: white;
 }
 
-/* line 250, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.js:hover {
   background-color: #d4622a;
   color: white;
 }
 
-/* line 254, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.search:hover {
   background-color: #327a5f;
   color: white;
 }
 
-/* line 258, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.html:hover {
   background-color: #2274b5;
   color: white;
 }
 
-/* line 262, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.db:hover {
   background-color: #6422b5;
   color: white;
 }
 
-/* line 266, ../../app/assets/stylesheets/home.css.sass */
 .tech-tag.web:hover {
   background-color: #3d6175;
   color: white;
 }
 
 @media (max-width: 1240px) {
-  /* line 271, ../../app/assets/stylesheets/home.css.sass */
   .jobs {
     padding-right: 32px;
   }
 
-  /* line 273, ../../app/assets/stylesheets/home.css.sass */
   .title {
     padding-left: 32px;
   }
 }
 @media (max-width: 960px) {
-  /* line 277, ../../app/assets/stylesheets/home.css.sass */
   .jobs {
     padding-right: 28px;
   }
 
-  /* line 279, ../../app/assets/stylesheets/home.css.sass */
   .title {
     padding-left: 28px;
   }
 }
-/* line 284, ../../app/assets/stylesheets/home.css.sass */
 .hex-mask {
   position: relative;
   max-width: 159px;
@@ -444,7 +382,6 @@ span.main, .email a {
   overflow: hidden;
 }
 
-/* line 292, ../../app/assets/stylesheets/home.css.sass */
 .hex-mask:after {
   position: absolute;
   height: 100px;
@@ -454,17 +391,14 @@ span.main, .email a {
   display: block;
 }
 
-/* line 300, ../../app/assets/stylesheets/home.css.sass */
 .hex-mask img {
   max-width: 100%;
 }
 
-/* line 303, ../../app/assets/stylesheets/home.css.sass */
 .tregular {
   font-family: ProximaNova-Regular;
 }
 
-/* line 306, ../../app/assets/stylesheets/home.css.sass */
 .tbold {
   font-family: ProximaNova-Bold;
 }
@@ -569,4 +503,15 @@ span.main, .email a {
   min-height: 701px;
   background-color: #fff;
   padding-left: 40px;
+}
+
+.logo a {
+  position: relative;
+}
+
+.logo-gradient {
+  position: absolute;
+  pointer-events: none;
+  top: -30px;
+  right: 130px;
 }
