@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <title>RubyconbyIndex</title>
+    <link href="main.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta content="authenticity_token" name="csrf-param">
+    <meta content="tNZYYEOzyvfCT76BbuksfLqUlLN+uLdEnH7I1vnqVek=" name="csrf-token">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-bg-jobs">
+        <div class="gradient"></div>
+        <div class="title">
+          <a href="index.html">
+            <span class="tbold">RUBYCON</span>
+            <span class="tregular">DEVELOPMENT</span>
+          </a>
+        </div>
+        <div class="jobs">
+          <div class="jobs-clock">
+            <img alt="Jobs_clock" src="images/jobs_clock.png">
+          </div>
+          <div class="jobs-text">
+            Разыскивается Frontent разработчик
+            <a href="#">Другие вакансии</a>
+          </div>
+        </div>
+        <div class="header">
+          <div class="header-top">
+            <div class="logo">
+              <img alt="Logo" src="images/logo_jobs.png">
+            </div>
+          </div>
+          <div class="header-mid">
+            <div class="mid-title">
+              Вакансии:
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-bg">
+        <div class="joblist-bg"></div>
+        <div class="job-bg"></div>
+        <div class="ember-job">
+
+          <script type="text/x-handlebars">
+            <div class="list">
+              {{partial "jobsList"}}
+            </div>
+            <div class="desc">
+              {{outlet}}
+            </div>
+          </script>
+
+          <script type="text/x-handlebars" data-template-name="frontEndDeveloper">
+            blah blah blah
+          </script>
+
+          <script type="text/x-handlebars" data-template-name="rubyProgrammer">
+            ruby is love
+          </script>
+
+          <script type="text/x-handlebars" data-template-name="jsProgrammer">
+            js is love
+          </script>
+
+          <script type="text/x-handlebars" data-template-name="_jobsList">
+            <ul>
+              <li>
+                {{#linkTo "frontEndDeveloper"}}Front end developer{{/linkTo}}
+              </li>
+              <li>
+                {{#linkTo "rubyProgrammer"}}Ruby programmer{{/linkTo}}
+              </li>
+              <li>
+                {{#linkTo "jsProgrammer"}}Js programmer{{/linkTo}}
+              </li>
+            </ul>
+          </script>
+
+        </div>
+      </div>
+      <div class="footer-bg">
+        <div class="shadow"></div>
+        <div class="footer">
+          <div class="footer-header">
+            <div class="full-title">
+              Частное предприятие "Рубикон Девелопмент"
+            </div>
+            <div class="address">
+              Республика Беларусь, г. Минск, ул. Суражская 10, офис 11
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="phones">
+              <div class="phone-icon">
+                <img alt="Phone_icon" src="images/phone_icon.png">
+              </div>
+              <div class="phone-number">
+                + 375 (17)
+                <span class="main">314 28 77</span>
+              </div>
+              <div class="phone-number">
+                + 375 (17)
+                <span class="main">314 28 78</span>
+              </div>
+              <div class="phone-number fax">
+                + 375 (29)
+                <span class="main">777 88 13</span>
+                <div class="note">
+                  сюда можно отправить факс
+                </div>
+              </div>
+              <div class="mail-icon">
+                <img alt="Mail-icon" src="images/mail-icon.png">
+              </div>
+              <div class="email">
+                <a href="mailto:hello@rubycon.by">hello@rubycon.by</a>
+              </div>
+              <div class="twitter-icon">
+                <a href="#"><img alt="Twitter_icon" src="images/twitter_icon.png"></a>
+              </div>
+              <div class="facebook-icon">
+                <a href="#"><img alt="Facebook_icon" src="images/facebook_icon.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/jquery-1.10.0.min.js?body=1" type="text/javascript"></script>
+    <script src="scripts/handlebars.js"></script>
+    <script src="scripts/ember-1.0.0-rc.4.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

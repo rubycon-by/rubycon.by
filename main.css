@@ -51,7 +51,7 @@ body {
 }
 
 /* line 4, ../../app/assets/stylesheets/home.css.sass */
-.header-bg, .hexes-bg, .techs-bg, .clients-bg, .team-bg, .footer-bg {
+.header-bg, .hexes-bg, .techs-bg, .clients-bg, .team-bg, .footer-bg, .header-bg-jobs, .content-bg {
   min-width: 960px;
   position: relative;
 }
@@ -327,6 +327,10 @@ span.main, .email a {
   vertical-align: 70%;
 }
 
+.email a:hover {
+  text-decoration: none;
+}
+
 /* line 212, ../../app/assets/stylesheets/home.css.sass */
 .phone-number {
   padding-right: 25px;
@@ -463,4 +467,105 @@ span.main, .email a {
 /* line 306, ../../app/assets/stylesheets/home.css.sass */
 .tbold {
   font-family: ProximaNova-Bold;
+}
+
+.content-bg {
+  min-height: 728px;
+  border-bottom: 1px solid #d7d5d8;
+}
+
+.joblist-bg {
+  float: left;
+  width: 50%;
+  height: 728px;
+  background-color: #eaeaea;
+}
+
+.job-bg {
+  float: right;
+  width: 50%;
+  height: 729px;
+}
+
+.ember-job {
+  margin-left: -480px;
+  left: 50%;
+  min-width: 960px;
+  max-width: 960px;
+  position: absolute;
+}
+
+.header-bg-jobs {
+  background-image: url(images/header_bg.png);
+  background-repeat: repeat-x;
+  min-height: 325px;
+}
+
+.title a {
+  color: #9c90a8;
+  text-decoration: none;
+}
+
+.ember-job {
+  font-family: ProximaNova-Regular;
+  min-height: 729px;
+}
+
+.list {
+  padding-top: 28px;
+  float: left;
+  width: 240px;
+  min-height: 701px;
+}
+
+.list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: ProximaNova-Bold;
+  font-size: 18px;
+}
+
+.list ul li a {
+  display: block;
+  padding: 7px 0;
+  padding-left: 15px;
+}
+
+.list ul li:hover a {
+  background-color: #4b365f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active{
+  background-color: #4b365f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active:after {
+  margin-top: 8px;
+  left: 220px;
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 4px 0 4px 6px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.desc {
+
+  -webkit-box-shadow: -8px 0px 13px rgba(50, 50, 50, 0.31);
+  -moz-box-shadow:    -8px 0px 13px rgba(50, 50, 50, 0.31);
+  box-shadow:         -8px 0px 13px rgba(50, 50, 50, 0.31);
+
+  padding-top: 28px;
+  float: right;
+  width: 680px;
+  min-height: 701px;
+  background-color: #fff;
+  padding-left: 40px;
 }
