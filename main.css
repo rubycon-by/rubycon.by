@@ -530,6 +530,7 @@ span.main, .email a {
   display: block;
   padding: 7px 0;
   padding-left: 15px;
+  color: #4b365f;
 }
 
 .list ul li:hover a {
@@ -538,9 +539,9 @@ span.main, .email a {
   text-decoration: none;
 }
 
-.active{
+.active {
   background-color: #4b365f;
-  color: #fff;
+  color: #fff!important;
   text-decoration: none;
 }
 
