@@ -16,12 +16,12 @@
   right: 0;
   top: -220px;
   width: 100%;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 40%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 40%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 40%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 40%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 40%);
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 40%);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0,1) 0%, rgba(255, 255, 255, 0) 35%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 40%, color-stop(0%, rgba(255, 255, 255, 0,1)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0,1) 0%, rgba(255, 255, 255, 0) 35%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0,1) 0%, rgba(255, 255, 255, 0) 35%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0,1) 0%, rgba(255, 255, 255, 0) 35%);
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 35%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
 }
 
@@ -41,7 +41,6 @@ body {
 }
 
 .hexes-bg {
-  padding-bottom: 17px;
   min-height: 196px;
   border-bottom: 1px solid #d7d5d8;
 }
@@ -65,8 +64,8 @@ body {
 }
 
 .footer-bg {
-  padding-top: 23px;
-  padding-bottom: 55px;
+  /*padding-top: 23px;*/
+  padding-bottom: 48px;
   box-shadow: inset 0px 12px 40px 0px black;
   background-image: url(images/footer_bg1.png);
   background-repeat: repeat;
@@ -79,13 +78,13 @@ body {
 
 .header-wrapper {
   border-bottom: #544760 1px solid;
-  padding-bottom: 25px;
+  padding-bottom: 36px;
   position: absolute;
   width: 100%;
 }
 
 .header-mid {
-  margin-top: -75px;
+  margin-top: -76px;
   padding-bottom: 40px;
 }
 
@@ -142,7 +141,7 @@ body {
   font-family: ProximaNova-Regular;
   font-size: 28px;
   color: #9c90a8;
-  padding-top: 25px;
+  padding-top: 46px;
   padding-left: 72px;
 }
 
@@ -153,7 +152,7 @@ body {
   right: 0;
   font-family: ProximaNova-Regular;
   color: #9c90a8;
-  padding-top: 25px;
+  padding-top: 46px;
   padding-right: 72px;
   width: 340px;
 }
@@ -161,6 +160,10 @@ body {
 .logo {
   top: 35px;
   text-align: center;
+}
+
+.logo a {
+  top: 26px;
 }
 
 .jobs-clock {
