@@ -4,8 +4,8 @@ Rubyconby = Ember.Application.create({
 
 Rubyconby.Router.map(function() {
   this.resource('frontEndDeveloper');
-  this.resource('rubyProgrammer');
-  this.resource('jsProgrammer');
+  this.resource('rubyDeveloper');
+  this.resource('jsDeveloper');
 });
 
 Rubyconby.IndexRoute = Ember.Route.extend({

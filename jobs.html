@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>RubyconbyIndex</title>
+    <title>Rubycon Development</title>
     <link href="main.css?body=1" media="all" rel="stylesheet" type="text/css">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta content="authenticity_token" name="csrf-param">
@@ -22,7 +22,7 @@
             </div>
             <div class="jobs-text">
               Разыскивается
-              <a href="jobs.html#/frontEndDeveloper" class="job-link">Frontent разработчик</a>
+              <a href="jobs.html#/frontEndDeveloper" class="job-link">Frontend разработчик</a>
               <a href="jobs.html">Другие вакансии</a>
             </div>
           </div>
@@ -68,25 +68,24 @@
                   <b>Требования:</b>
                 </p>
                 <ul>
-                  <li>отличное знание HTML(5), CSS и JavaScript;<br></li>
-                  <li>умение использовать jQuery там, где это действительно необходимо;<br></li>
-                  <li>умение разбираться в чужом коде;<br></li>
-                  <li>блочная верстка;<br></li>
-                  <li>энергичность и умение работать в команде.<br></li>
+                  <li>отличное знание HTML(5), CSS и JavaScript;</li>
+                  <li>умение использовать jQuery там, где это действительно необходимо;</li>
+                  <li>использовать CoffeeScript, Haml, Sass;</li>
+                  <li>энергичность и умение работать в команде.</li>
                 </ul>
                 <p><b>Плюсами будут:</b></p>
                 <ul>
-                  <li>опыт работы с Twitter Bootstrap;<br></li>
-                  <li>знание новых возможностей популярных браузеров;<br></li>
-                  <li>опыт работы с системами контроля версий (mercurial);<br></li>
-                  <li>знание особенностей мобильных браузеров.<br></li>
+                  <li>опыт работы с Twitter Bootstrap;</li>
+                  <li>знание новых возможностей популярных браузеров;</li>
+                  <li>опыт работы с системами контроля версий (git);</li>
+                  <li>знание особенностей мобильных браузеров.</li>
                 </ul>
-                <div><br></div><div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
+                <div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
               </div>
             </div>
           </script>
 
-          <script type="text/x-handlebars" data-template-name="rubyProgrammer">
+          <script type="text/x-handlebars" data-template-name="rubyDeveloper">
             <div class='requirements block'>
               <div class='text'>
                 <p>
@@ -96,18 +95,19 @@
                   <b>Требования:</b>
                 </p>
                 <ul>
-                  <li>Опыт разработки на Ruby on Rails<br></li>
-                  <li>Знание или интерес в освоении новых трендов в области веб-разработки (slim/sass/coffee-script)<br></li>
-                  <li>умение использовать jQuery там, где это действительно необходимо;<br></li>
-                  <li>умение разбираться в чужом коде;<br></li>
-                  <li>энергичность и умение работать в команде.<br></li>
+                  <li>Опыт разработки на Ruby on Rails;</li>
+                  <li>Разработка с помощью ruby 1.9.3 и 2.0.0;</li>
+                  <li>RSpec, Yard;</li>
+                  <li>опыт работы с системами контроля версий (git);</li>
+                  <li>опыт создания gem-ов</li>
+                  <li>энергичность и умение работать в команде.</li>
                 </ul>
-                <div><br></div><div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
+                <div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
               </div>
             </div>
           </script>
 
-          <script type="text/x-handlebars" data-template-name="jsProgrammer">
+          <script type="text/x-handlebars" data-template-name="jsDeveloper">
             <div class='requirements block'>
               <div class='text'>
                 <p>
@@ -117,29 +117,28 @@
                   <b>Требования:</b>
                 </p>
                 <ul>
-                  <li>Отличное знание JavaScript<br></li>
-                  <li>Знание или интерес в освоении новых трендов в области веб-разработки (slim/sass/coffee-script)<br></li>
-                  <li>умение использовать jQuery там, где это действительно необходимо;<br></li>
-                  <li>знание таких фреймворков, как ember.js, backbone.js;<br></li>
-                  <li>умение разбираться в чужом коде;<br></li>
-                  <li>энергичность и умение работать в команде.<br></li>
+                  <li>Отличное знание JavaScript</li>
+                  <li>Знание или интерес в освоении новых трендов в области веб-разработки</li>
+                  <li>умение использовать jQuery там, где это действительно необходимо;</li>
+                  <li>знание таких фреймворков, как ember.js, backbone.js;</li>
+                  <li>энергичность и умение работать в команде.</li>
                 </ul>
-                <div><br></div><div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
+                <div>Заинтересовала вакансия? Пишите: <a href="mailto:hello@rubycon.by">hello@rubycon.by</a></div>
               </div>
             </div>
-            
+
           </script>
 
           <script type="text/x-handlebars" data-template-name="_jobsList">
             <ul>
               <li>
-                {{#linkTo "frontEndDeveloper"}}Front end developer{{/linkTo}}
+                {{#linkTo "frontEndDeveloper"}}Frontend разработчик{{/linkTo}}
               </li>
               <li>
-                {{#linkTo "rubyProgrammer"}}Ruby programmer{{/linkTo}}
+                {{#linkTo "rubyDeveloper"}}Ruby разработчик{{/linkTo}}
               </li>
               <li>
-                {{#linkTo "jsProgrammer"}}Js programmer{{/linkTo}}
+                {{#linkTo "jsDeveloper"}}Js разработчик{{/linkTo}}
               </li>
             </ul>
           </script>
@@ -165,16 +164,16 @@
                 <img alt="Phone_icon" src="images/phone_icon.png">
               </div>
               <div class="phone-number">
-                + 375 (17)
-                <span class="main">314 28 77</span>
+                + 375 (29)
+                <span class="main">777 88 13</span>
               </div>
               <div class="phone-number">
                 + 375 (17)
-                <span class="main">314 28 78</span>
+                <span class="main">394 33 72</span>
               </div>
               <div class="phone-number fax">
-                + 375 (29)
-                <span class="main">777 88 13</span>
+                + 375 (17)
+                <span class="main">394 33 74</span>
                 <div class="note">
                   сюда можно отправить факс
                 </div>
@@ -187,12 +186,12 @@
               <div class="email">
                 <a href="mailto:hello@rubycon.by">hello@rubycon.by</a>
               </div>
-              <div class="twitter-icon">
+              <!-- <div class="twitter-icon">
                 <a href="#"><img alt="Twitter_icon" src="images/twitter_icon.png"></a>
               </div>
               <div class="facebook-icon">
                 <a href="#"><img alt="Facebook_icon" src="images/facebook_icon.png"></a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
